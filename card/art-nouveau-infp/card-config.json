@@ -72,5 +72,14 @@
   "fallback": {
     "keepOriginalImage": true,
     "showStatusMessage": true
+  },
+  "orientationSensor": {
+    "enabledOnMobile": true,
+    "requiresSecureContext": true,
+    "requestPermissionOnTap": true,
+    "baselineOnEnable": true,
+    "tiltRangeDegrees": 30,
+    "smoothing": 0.18,
+    "fallback": "pointer"
   }
 }
