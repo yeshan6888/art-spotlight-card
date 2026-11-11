@@ -1,0 +1,76 @@
+{
+  "assets": {
+    "original": "./card-original.png",
+    "normal": "./card-normal.webp",
+    "roughness": "./card-roughness.webp",
+    "height": "./card-height.webp"
+  },
+  "render": {
+    "webgl": "webgl2",
+    "canvasAlpha": true,
+    "premultipliedAlpha": true,
+    "blendFunc": [
+      "ONE",
+      "ONE_MINUS_SRC_ALPHA"
+    ],
+    "unpackFlipY": true,
+    "dprMax": 1.5
+  },
+  "parallax": {
+    "amplitude": 0.0034,
+    "enabled": true
+  },
+  "lighting": {
+    "normalXYStrength": 1.45,
+    "normalZMinimum": 0.08,
+    "lightZ": 0.5,
+    "diffuseWrap": 0.8,
+    "diffuseIntensity": 0.62,
+    "roughnessShininess": [
+      52.0,
+      6.0
+    ],
+    "specularRoughnessFactor": 0.85,
+    "specularIntensity": 0.46,
+    "warmColor": [
+      1.0,
+      0.92,
+      0.78
+    ],
+    "ambientColor": [
+      0.82,
+      0.83,
+      0.88
+    ],
+    "ambientIntensity": 0.56,
+    "rimIntensity": 0.12
+  },
+  "pointer": {
+    "uvMin": -0.4,
+    "uvMax": 1.4,
+    "touch": true,
+    "gyro": false
+  },
+  "tilt": {
+    "perspectivePx": 1400,
+    "maxDegrees": 4.2,
+    "idleSwayDegrees": 1.3,
+    "ease": 0.055,
+    "cssTransition": false
+  },
+  "shadow": {
+    "followsOppositeLight": true,
+    "blurredContour": true,
+    "opacityLow": 0.1,
+    "opacityHigh": 0.24
+  },
+  "accessibility": {
+    "prefersReducedMotion": true,
+    "disableParallax": true,
+    "disableSway": true
+  },
+  "fallback": {
+    "keepOriginalImage": true,
+    "showStatusMessage": true
+  }
+}
